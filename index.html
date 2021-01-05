@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,59 +8,176 @@
     <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="./public/css/style.css">
 </head>
+
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-        <div class="container-fluid ">
-          <a class="navbar-brand " href="#">Navbar</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Dropdown
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul>
-              </li>
-              
-            </ul>
-            <form class="d-flex">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
-          </div>
+    <header>
+        <!-- nav  -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+            <div class="container-fluid ">
+                <a class="navbar-brand " href="#">Navbar</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Dropdown
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- container -->
+    <section class="container">
+        <!-- un bouton fait pour vous -->
+        <div class="d-grid gap-2 col-6 mt-2">
+            <button class="btn btn-primary" type="button">Un bouton déjà tout fait pour vous</button>
         </div>
-      </nav>
-      <div class="d-grid gap-2 col-6 mt-2">
-        <button class="btn btn-primary" type="button">Un bouton déjà tout fait pour vous</button>
-      </div>
-      <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex nihil, eaque veritatis iure ad dicta<span class="badge bg-success">et ceci est un badge</span>
-      </h1>
-      <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2>
+        <!-- bagde bouton lien -->
+        <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex nihil, eaque veritatis iure ad dicta
+            <span class="badge bg-success">et ceci est un badge</span>
+        </h1>
+        <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2>
 
-      <a href="#" class="btn btn-primary stretched-link">moi je suis un lien</a>
-      <a href="#" class="btn btn-danger stretched-link rounded-pill">Go somewhere</a>
-      <p class="btn bg-warning tretched-link"> Lorem, ipsum dolor.</p>
-      
+        <a href="#" class="btn btn-primary stretched-link">moi je suis un lien</a>
+        <a href="#" class="btn btn-danger stretched-link rounded-pill">Go somewhere</a>
+        <p class="btn bg-warning tretched-link"> Lorem, ipsum dolor.</p>
+       
+        
+          <div class="container-fluide  ">
+              <div class="row d-flex justify-content-center">
+                  <h1 class="text-center">Lorem ipsum dolor sit amet consectetur.</h1>
+                  <p class="text-center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa, iusto!</p>
+            <div class=" alert alert-danger  w-50   " role="alert">
+                <h2>A simple danger alert—check it out!</h2>
+            </div>
+        </div>  
+        </div>
+        
+    </section>
+    <!-- black magic -->
 
-      
-      <div class="container-fluid">
-        <p>recherche dans la doc</p>
-      </div>
+    <!-- <section class="text-light bg-dark p-3 d-flex ">
+        <h1 class="light d-flex ">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti molestiae deleniti
+            ullam animi possimus ex nostrum saepe rerum, et quos?</h1>
+        <p class="bg-light text-dark d-flex ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, saepe?
+        </p>
+    </section> -->
+    <section class=" text-light bg-dark text-center">
+        <div class="container">
+            <div class="row">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, error.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem suscipit, eum perferendis rerum
+                    cupiditate assumenda quae? Ducimus fuga maxime labore.</p>
+                <div class="row bg-light text-dark mb-4">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo!</p>
+                </div>
+            </div>
+        </div>
 
 
+    </section>
+
+    <!-- premier card todo list -->
+
+    <section class=" mt-5 ">
+        <div class="container d-flex justify-content-center">
+            <div class="row align-items-center d-flex justify-content-center   ">
+
+                <div class="col-4">
+                    <div class="list-group">
+                        <h1>Une liste de chose à faire</h1>
+                        <a href="#" class="list-group-item list-group-item-action active" aria-current="true">
+                            <div class="d-flex w-100 justify-content-between">
+                                <h5 class="mb-1">Réviser le soir</h5>
+                            </div>      
+                        </a>
+                        <a href="#" class="list-group-item list-group-item-action">
+                            <div class="d-flex w-100 justify-content-between">
+                                <h5 class="mb-1">Etre curieux et ne pas hésiter à chercher par moi meme et à tester</h5>
+        
+                            </div>
+        
+                        </a>
+                        <a href="#" class="list-group-item list-group-item-action">
+                            <div class="d-flex w-100 justify-content-between">
+                                <h5 class="mb-1">Toujour croire en la puissance binaire du coach
+                                    
+                                    <span class="badge bg-success">que le code soit sur lui </span> </h5>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+        
+                <!-- Deuxieme card -->
+                <div class="col-3">
+                    <div class="card" style="width: 18rem;">
+                        <h3>Lorem ipsum dolor sit amet consectetur.</h3>
+                        <img src="./img/affiche-tete-de-mort-sous-cadre-carte-as-de-pique-ace-of-spades-pr.jpg"
+                            class="card-img-top" alt="carte as">
+                        <div class="card-body bg-secondary text-light">
+                            <p class="card-text">L'as de trefle qui pique ton coeur</p> 
+                            <p>Caroline</p>                    
+                        </div>
+                    </div>
+                </div>
+        
+                <!-- troisieme card -->
+                <div class="col-4 mr-4">
+                    <h5>Lorem, ipsum dolor sit amet consectetur adipisicing.</h5>
+                    <div class="progress mb-2">
+                        <div class="progress-bar bg-success" role="progressbar" style="width: 25%" aria-valuenow="25"
+                            aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <div class="progress mb-2 ">
+                        <div class="progress-bar bg-info" role="progressbar" style="width: 50%" aria-valuenow="50"
+                            aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <div class="progress mb-2">
+                        <div class="progress-bar bg-warning" role="progressbar" style="width: 75%" aria-valuenow="75"
+                            aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <div class="progress mb-2">
+                        <div class="progress-bar bg-danger" role="progressbar" style="width: 100%" aria-valuenow="100"
+                            aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
     
+    </section>
+
+
+
+
+
+
 </body>
+
 </html>
